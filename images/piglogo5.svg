@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="cls-1" cx="77.5" cy="81.5" r="57.12"/>
+    <path d="M77.5,24.75c31.29,0,56.75,25.46,56.75,56.75s-25.46,56.75-56.75,56.75-56.75-25.46-56.75-56.75S46.21,24.75,77.5,24.75m0-.75c-31.76,0-57.5,25.74-57.5,57.5s25.74,57.5,57.5,57.5,57.5-25.74,57.5-57.5-25.74-57.5-57.5-57.5h0Z"/>
+  </g>
+  <image width="500" height="500" transform="translate(30 34) scale(.19)" xlink:href="../PIGLOGO.png"/>
+</svg>
