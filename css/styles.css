@@ -334,12 +334,20 @@ a {
     color: white;
 }
 
+.card--primary .badge--primary {
+    background: #126de4;
+}
+
 .card--secondary .badge--secondary {
     background: #02cdf1;
 
 }
 
 /* Plans */
+.plan {
+    transition: transform 0.2s ease-out;
+    cursor: pointer;
+}
 
 .plan__name {
     color: #fff;
@@ -370,19 +378,33 @@ a {
     margin-bottom: 2rem;
 }
 
+.plan--popular {
+    transform: scale(1.1);
+}
+
 .plan--popular .card__header {
     position: relative;
 }
-
 
 .plan--popular .card__header::before {
     content: url(../images/popular1.svg);
     width: 40px;
     display: inline-block;
     position: absolute;
-    top: 2%;
+    /* top: 2%;
     right: 8%;
-    margin-top: -10px;
+    margin-top: -10px; */
+    top: -6px;
+    right: 5%;
+}
+
+.plan:hover {
+    transform: scale(1.05);
+}
+
+.plan--popular:hover {
+    transform: scale(1.15);
+    /* cursor: pointer; */
 }
 
 @media  screen and (min-width: 1024px) {
@@ -776,4 +798,15 @@ align-items: center;
         grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
 
     }
+}
+
+/* Plans Block */
+
+.block-plans .grid {
+    gap: 8rem 4rem;
+}
+
+.block-plans .card {
+    max-width: 500px;
+    margin: 0 auto;
 }
