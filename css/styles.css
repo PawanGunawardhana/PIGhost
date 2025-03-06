@@ -194,6 +194,7 @@ a {
     background: var(--color-accent);
 }
 
+
 /* Buttons */
 .btn { 
     border-radius: 40px;
@@ -809,4 +810,34 @@ align-items: center;
 .block-plans .card {
     max-width: 500px;
     margin: 0 auto;
+}
+
+/* Features */
+
+.feature {
+    gap: 4rem 2rem;
+    margin: 12rem 0;
+}
+
+.feature:first-of-type {
+    margin-top: 6rem;
+}
+
+.feature__heading {
+    margin: 1rem 0;
+}
+
+.feature__image {
+    width: 100%;
+}
+
+.feature .feature__icon {
+    color: var(--color-primary);
+}
+
+@media screen and (min-width: 768px) {
+    .feature:nth-of-type(even) .feature__content {
+        order: 2;
+    }
+    
 }
