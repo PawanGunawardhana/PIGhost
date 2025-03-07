@@ -142,7 +142,7 @@ a {
 /* Lists */
 .list {
     list-style: none;
-    padding-left: 0;    
+    padding-left: 0;
 }
 
 .list--inline .list__item {
@@ -211,7 +211,7 @@ a {
     font-weight: 600;
     margin: 1rem 0;
     outline: 0;
-    padding: 2rem 3rem;
+    padding: 2rem 4vw;
     text-align: center;
     text-transform: uppercase;
     white-space: nowrap;
@@ -306,6 +306,7 @@ a {
     border: 0;
     flex-grow: 1;
     padding: 1.5rem 2rem;
+    width: 0;
 }
 
 .input-group .btn {
@@ -676,7 +677,7 @@ a {
 
 /* Navigation Bar */
 .nav {
-border: 2px solid gold;
+border: none;
 background: black;
 display: flex;
 justify-content: space-between;
@@ -791,10 +792,11 @@ align-items: center;
 }
 
 .block-domain__prices {
+    color: var(--color-headings);
     display: grid;
     font-size: 2rem;
     font-weight: 600;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 6rem);
     justify-items: center;
     margin: 0 auto;
