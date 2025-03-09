@@ -562,6 +562,7 @@ a {
     padding: 4rem;
     border-radius: 10px;
     margin: 4rem;
+    min-width: 260px;
 }
 
 .callout--primary {
@@ -579,11 +580,18 @@ a {
 .callout .btn {
     justify-self: center;
     align-self: center;
+    min-width: 180px;
 
 }
 
 .callout__content {
     text-align: center;
+    min-width: 180px;
+}
+
+.callout .btn--stretched {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
 }
 
 @media screen and (min-width: 768px) {
